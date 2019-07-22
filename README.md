@@ -1,6 +1,6 @@
 # Guess-the-number
 
-A small game to guess a number with limited hit and trials.
+A random fun game to guess a number with limited hit and trials.
 
 It basically uses the random generator function to generate an n digit number where n is as per the user.Then from some optimal algorithm the user gets limited number of tries to guess correctly the number.
 
