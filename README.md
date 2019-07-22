@@ -9,6 +9,3 @@ When the number guessed by the user is higher than the actual one then it indica
 # Note
 Any effort in improving the code to make it more efficient will be highly appreciated.Kindly sent a pull request making a new branch of your own.Also codes in other languages are also welcome!!
 
-(\____/)
-( ͡ ͡° ͜ ʖ ͡ ͡°)
-\╭☞ \╭☞
