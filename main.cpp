@@ -27,21 +27,23 @@ int main()
     int cnt = temp - 1 ;
 
     // Tells you about the tries left and whether you are close to your target or not
-    while (cnt --)
+    while (cnt >=1)
     {
         int rand;
-        cout << "Guess the number!! You have only "<<cnt <<"chances left."<<endl;
+        cout << "\nGuess the number!! You have only "<<cnt <<" chances left."<<endl;
         cin >> rand;
         if (rand < ans)
-            cout << "Guessed number is lower!!" <<endl;
+            cout << "Guessed number is lower than the answer !!" <<endl;
         else if (rand >ans)
-            cout << "Guessed number is higher!!"<< endl;
+            cout << "Guessed number is higher than the answer !!"<< endl;
         else
         {
             cout << "Congratulations you have guessed the correct no.!!! (~˘▾˘)~";
                 return 0;
         }
+        cnt --;
     }
-    cout << "Sorry, you have no tries left! (；一_一)";
+    cout << "Sorry, you have no tries left! (；一_一)"<<endl;
+    cout<< "The correct number is "<< ans;
     return 0;
 }
