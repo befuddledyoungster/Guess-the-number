@@ -38,12 +38,12 @@ int main()
             cout << "Guessed number is higher than the answer !!"<< endl;
         else
         {
-            cout << "Congratulations you have guessed the correct no.!!! (~˘▾˘)~";
+            cout << "Congratulations you have guessed the correct no.!!!";
                 return 0;
         }
         cnt --;
     }
-    cout << "Sorry, you have no tries left! (；一_一)"<<endl;
+    cout << "Sorry, you have no tries left!"<<endl;
     cout<< "The correct number is "<< ans;
     return 0;
 }
