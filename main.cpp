@@ -5,6 +5,8 @@
 
 using namespace std;
 
+
+
 int main()
 {
     //Initiate seed
@@ -38,12 +40,14 @@ int main()
             cout << "Guessed number is higher than the answer !!"<< endl;
         else
         {
-            cout << "Congratulations you have guessed the correct no.!!!";
+            cout << "Congratulations you have guessed the correct no.!!!"<<endl;
+            cout << "Well played";
                 return 0;
         }
         cnt --;
     }
-    cout << "Sorry, you have no tries left!"<<endl;
-    cout<< "The correct number is "<< ans;
+    cout << "Sorry, you have zero tries left!"<<endl;
+    cout<< "The correct number is "<< ans << endl;
+    cout << "Try again next time";
     return 0;
 }
