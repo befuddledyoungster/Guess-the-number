@@ -1,3 +1,5 @@
+//GUESS THE NUMBER- A random fun game
+
 #include<iostream>
 #include <bits/stdc++.h>
 
@@ -29,9 +31,9 @@ int main()
         cout << "Guess the number!! You have only "<<cnt <<"chances left."<<endl;
         cin >> rand;
         if (rand < ans)
-            cout << "Too low!!" <<endl;
+            cout << "Guessed number is lower!!" <<endl;
         else if (rand >ans)
-            cout << "Too high!!"<< endl;
+            cout << "Guessed number is higher!!"<< endl;
         else
         {
             cout << "Congratulations you have guessed the correct no.!!! (~˘▾˘)~";
